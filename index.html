@@ -3,8 +3,9 @@
 	<head>
     	<meta charset="UTF-8">
     	<meta name="viewport" content="width=device-width">
+    	<script src="app.js"></script>
+    	<link rel="stylesheet" type="text/css" href="styles.css">
     	<title>Fortune Cookie Generator</title>
-    	<
   	</head>
  	<body>
  		<h1>
@@ -14,13 +15,13 @@
  		<p id = "fortune-cookie-text">
  		</p>
 
- 		<button type = "button" onclick= "function generateFortuneCookie()">
+ 		<button type = "button" onclick= "document.getElementById('fortune-cookie-text').innerHTML = 'You will ' + generateFortuneCookie(); document.getElementById('previous-fortunes').innerHTML = ">
  			Make my Fortune!
  		</button>
 
- 		<h3>
+ 		<h2>
  			Past fortunes
- 		</h3>
+ 		</h2>
  		<p id = "previous-fortunes">
  		</p>
   	</body>
