@@ -2,7 +2,7 @@
 <html>
 	<head>
     	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width">
+    	<meta name="viewport" content="widtd=device-widtd">
     	<script src="app.js"></script>
     	<link rel="stylesheet" type="text/css" href="styles.css">
     	<title>Fortune Cookie Generator</title>
@@ -11,18 +11,167 @@
  		<h1>
  			Fortune Cookie Generator
  		</h1>
+ 		<div class = "aside-left">
+ 			<h2>
+ 				Fortune Cookie
+ 			</h2>
+	 		<div id = "generator">
+				<p id = "fortune-cookie-text">
+			 		&nbsp;
+			 	</p>
 
- 		<p id = "fortune-cookie-text">
- 		</p>
-
- 		<button type = "button" onclick= "document.getElementById('fortune-cookie-text').innerHTML = 'You will ' + generateFortuneCookie(); document.getElementById('previous-fortunes').innerHTML = ">
- 			Make my Fortune!
- 		</button>
-
- 		<h2>
- 			Past fortunes
- 		</h2>
- 		<p id = "previous-fortunes">
- 		</p>
+			 	<button type = "button" onclick= "document.getElementById('fortune-cookie-text').innerHTML = generateFortuneCookie()">
+				 	Make my Fortune!
+				</button>
+			</div>
+			<div id = "stats">
+				<h2>
+					Stats
+				</h2>
+				<div id = "counter">
+					<h3>
+						Number of Fortunes Clicked
+					</h3>
+					<p id = "all-fortunes">
+						0
+					</p>
+				</div>
+			</div>
+			<div id = "aside-right">
+				<h3>
+					Previous Fortunes
+				</h3>
+				<table>
+					<tr>
+						<th>
+							Fortune
+						</th>
+						<th>
+							Number of Times Generated
+						</th>
+					</tr>
+					<tr>
+						<td id = "fortune-0">
+							???
+						</td>
+						<td id = "fortune-0-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-1">
+							???
+						</td>
+						<td id = "fortune-1-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-2">
+							???
+						</td>
+						<td id = "fortune-2-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-3">
+							???
+						</td>
+						<td id = "fortune-3-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-4">
+							???
+						</td>
+						<td id = "fortune-4-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-5">
+							???
+						</td>
+						<td id = "fortune-5-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-6">
+							???
+						</td>
+						<td id = "fortune-6-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-7">
+							???
+						</td>
+						<td id = "fortune-7-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-8">
+							???
+						</td>
+						<td id = "fortune-8-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-9">
+							???
+						</td>
+						<td id = "fortune-9-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-10">
+							???
+						</td>
+						<td id = "fortune-10-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-11">
+							???
+						</td>
+						<td id = "fortune-11-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-12">
+							???
+						</td>
+						<td id = "fortune-12-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-13">
+							???
+						</td>
+						<td id = "fortune-13-counter">
+							0
+						</td>
+					</tr>
+					<tr>
+						<td id = "fortune-14">
+							???
+						</td>
+						<td id = "fortune-14-counter">
+							0
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
   	</body>
 </html>

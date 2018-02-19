@@ -1,0 +1,42 @@
+h1{
+	color: #0099ff;
+}
+
+body{
+	font-family:helvetica;
+	text-align:center
+}
+
+#counter {
+	border: 1px solid #ddd;
+}
+
+table{
+	margin:auto;
+	font-size:16px;
+	border-collapse:collapse;
+	width:50%;
+}
+
+td, th {
+	padding:8px;
+	border: 1px solid #ddd;
+	margin:auto;
+	width:50%;
+}
+
+th{
+	padding:8px;
+	font-size:24px;
+	font-style:bold;
+	color: #ffffff;
+	background-color: #0099ff;
+}
+
+tr:nth-child(even) {
+	background-color:#ccebff;
+}
+
+tr:hover {
+	background-color:#80ccff;
+}
