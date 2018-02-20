@@ -26,7 +26,7 @@ button:hover {
 	color: white;
 }
 
-table{
+table {
 	margin:auto;
 	font-size:16px;
 	border-collapse:collapse;
@@ -40,12 +40,16 @@ td, th {
 	width:50%;
 }
 
-th{
+th {
 	padding:8px;
 	font-size:24px;
 	font-style:bold;
 	color: #ffffff;
 	background-color: #0099ff;
+}
+
+#aside {
+	float: left;
 }
 
 tr:nth-child(even) {
