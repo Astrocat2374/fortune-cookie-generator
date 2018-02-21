@@ -12,18 +12,14 @@ body{
 }
 
 button {
-	background-color: #ccebff;
+	color: white;
+	background-color: #0099ff;
 	border: none;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-}
-
-button:hover {
-	background-color: #0099ff;
-	color: white;
 }
 
 table {
@@ -48,14 +44,14 @@ th {
 	background-color: #0099ff;
 }
 
-#aside {
-	float: left;
-}
-
 tr:nth-child(even) {
 	background-color:#ccebff;
 }
 
 tr:hover {
 	background-color:#80ccff;
+}
+
+button:hover {
+	background-color: #0050ff;
 }
