@@ -155,3 +155,25 @@ function generateFortuneCookie(rng) {
 	}
 
 }
+
+var seconds = 0
+
+setInterval(function () {
+	seconds++
+}, 1000);
+
+setInterval(function checkAchievements () {
+	if (seconds === 60) {
+		document.getElementById("1-minute").innerHTML = "You've been online for 1 minute";
+	} else if (seconds === 600) {
+		document.getElementById("10-minutes").innerHTML = "You've been online for 10 minutes";
+	} else if (seconds === 3600) {
+		document.getElementById("1-hour").innerHTML = "You've been online for 1 hour! Did you fall asleep?";
+	} else if (allCounter === 100) {
+		document.getElementById("100-clicks").innerHTML = "You've generated 100 fortunes";
+	} else if (allCounter === 1000) {
+		document.getElementById("1000-clicks").innerHTML = "You've generated 1,000 fortunes";
+	} else if (allCounter === 10000) {
+		document.getElementById("10000-clicks").innerHTML = "You've generated 10,000 fortunes! Are you using an auto clicker?";
+	}
+}, 50);
